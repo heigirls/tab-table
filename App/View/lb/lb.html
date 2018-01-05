@@ -1,0 +1,14 @@
+<div id="box" ng-mouseenter="mouseover()" ng-mouseleave="mouseout()">
+    <ul class="images animate">
+        <li ng-repeat="res in result"><img src="{{res}}" alt="" /></li>
+    </ul>
+    <ol class="button">
+        <li class="cur">1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ol>
+    <span class="left" ng-click="prev()">&lt;</span>
+    <span class="right" ng-click="next()">&gt;</span>
+</div>
